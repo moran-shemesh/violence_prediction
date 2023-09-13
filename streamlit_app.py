@@ -1,19 +1,7 @@
 # https://moran-shemesh-abuser-streamlit-app-oyisjd.streamlit.app/
 # https://www.datacamp.com/tutorial/streamlit
 import streamlit as st
-import time
-import googletrans
-from googletrans import Translator
-import openai
-import wandb
-from pathlib import Path
-import pandas as pd
-import numpy as np
-import json
-from tqdm import tqdm
-from io import StringIO
-from decouple import config
-from PIL import Image
+
 
 #OPENAI_API_KEY = config('KEY') #take the key from the .env file
 #translator = Translator()
