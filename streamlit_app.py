@@ -8,4 +8,6 @@ import streamlit as st
 
 st.caption(" © Violence Prediction by Moran Shemesh")
 
+user_link = st.text_area("", value=string_data, placeholder="Add here a youTube link to a video")
+
 
